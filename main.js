@@ -1,10 +1,10 @@
-let numeroSecreto = parseInt(Math.random()* 10 + 1)
+let numeroSecreto = parseInt(Math.random()* 100 + 1)
 alert(numeroSecreto)
 
 
 
 while (true) {
-    let numeroDigitado = prompt("ingresa un numero entre 1 y 10")
+    let numeroDigitado = prompt("ingresa un numero entre 1 y 100")
     
     if (numeroSecreto == numeroDigitado) {
         alert("acerto")
