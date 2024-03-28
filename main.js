@@ -9,8 +9,8 @@ while (true) {
     if (numeroSecreto == numeroDigitado) {
         alert("acerto")
     } else if (numeroSecreto > numeroDigitado) {
-        alert("te equivocaste ... el numero secreto es mayor que le numero digitado")
+        alert("te equivocaste ... el numero secreto es mayor que le numero digitado " + numeroDigitado)
     } else if (numeroSecreto < numeroDigitado) {
-        alert("te equivocaste ... el numero secreto es menor que le numero digitado")
+        alert("te equivocaste ... el numero secreto es menor que le numero digitado " + numeroDigitado)
     }
 }
