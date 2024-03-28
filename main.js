@@ -1,5 +1,5 @@
 let numeroSecreto = parseInt(Math.random()* 100 + 1)
-alert(numeroSecreto)
+
 
 
 
